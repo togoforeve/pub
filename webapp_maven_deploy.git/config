@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = true
+[remote "origin"]
+	url = https://togoforeve@bitbucket.org/tetranoodle/webapp_maven_deploy.git
+[remote "maven"]
+	url = https://bitbucket.org/togoforeve/maven
+	fetch = +refs/heads/*:refs/remotes/maven/*
